@@ -34,6 +34,7 @@ public class BattleShipRequest {
         battleShipGame.setPlayerB_fleet(battleShipRequest.getPlayerB_fleet());
         battleShipGame.setFiredXCoordinates(battleShipRequest.getFiredXCoordinates());
         battleShipGame.setFiredYCoordinates(battleShipRequest.getFiredYCoordinates());
+        battleShipGame.setCurrentPlayer(battleShipRequest.getCurrentPlayer());
         battleShipGame.setGameOver(battleShipGame.isGameOver());
 
         return battleShipGame;
